@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercițiul 4 - Trei Paragrafe</title>
+    <script>
+        function schimbaParagrafe() {
+            // Paragraful 1
+            var p1 = document.getElementById("p1");
+            p1.innerHTML = "Acesta este paragraful 1";
+            p1.style.color = "white";
+            p1.style.backgroundColor = "darkblue";
+
+            // Paragraful 2
+            var p2 = document.getElementById("p2");
+            p2.innerHTML = "Acesta este paragraful 2";
+            p2.style.color = "darkgreen";
+            p2.style.backgroundColor = "lightgreen";
+
+            // Paragraful 3
+            var p3 = document.getElementById("p3");
+            p3.innerHTML = "Acesta este paragraful 3";
+            p3.style.color = "purple";
+            p3.style.backgroundColor = "#ffc0cb";
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Exercițiul 4</h1>
+
+    <p id="p1">Text inițial primul paragraf.</p>
+    <p id="p2">Text inițial al doilea paragraf.</p>
+    <p id="p3">Text inițial al treilea paragraf.</p>
+
+    <button type="button" onclick="schimbaParagrafe()">Modifică paragrafele</button>
+
+    <br><br>
+    <p><a href="index.html">Înapoi la lista temei</a></p>
+
+</body>
+</html>
